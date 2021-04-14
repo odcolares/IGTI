@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8">
     <title>HtmlCss</title>
 </head>
@@ -25,10 +26,12 @@
             </tbody>
         </table>
     </div>
+    <div id ="titulo">Formulario de cadastro de nomes</div>
     <div>
         <form onsubmit="/genero" id="formulario" method="post">
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome" value="" placeholder="Digite o nome">
+            <div class="erro">Mensagem de erro</div>
             <input type="submit" id="submit-button" value="Enviar">
         </form>
     </div>
